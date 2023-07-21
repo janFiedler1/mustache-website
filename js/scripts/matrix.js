@@ -12,8 +12,8 @@ const canvas = document.getElementById('canv');
 const ctx = canvas.getContext('2d');
 
 // set the width and height of the canvas
-const w = canvas.width = document.body.offsetWidth;
-const h = canvas.height = document.body.offsetHeight;
+const w = canvas.width = window.innerWidth;
+const h = canvas.height = window.innerHeight;
 
 ctx.canvas.width  = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
